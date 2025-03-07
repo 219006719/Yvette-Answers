@@ -19,6 +19,7 @@ MediaDeviceInfo(); {
             for (let instructor = 0; instructor++; instructor)
                 if (instructor >= 0 && instructor)
                {return instructor.role;}
+        
     {
                 for (let student = 0; student++; student)
                     if (student >= 0 && student)
@@ -42,6 +43,11 @@ function findAdmin(admin)
 
 //e. Write a function generateWelcomeMessages(users) that returns an array of messages like   
 //"Welcome, [name]! You are an [role]."   
+function generateWelcomeMessages(users)
+{ admin, role="admin"
+instructor, role = "instructor" 
+students, role=students 
+}
 
 //f. (Use map.)   
 //g. Discuss the advantages of using array methods (map, filter) over traditional loops in this 
@@ -103,7 +109,7 @@ return reverseWords;
 //Sub-questions:   
 //a. Write a function findTopScorers(students, threshold) that returns an array of names of students who 
 //scored above the given threshold. (Use filter.)   
-
+function findTopScorers(students, threshold) {}
 
 //b. Write a function sortStudentsByScore(students) that returns a new array of students sorted in 
 //descending order based on their scores. (Use sort.)  
@@ -148,11 +154,25 @@ function groupBooksByAuthor(books) {
 //titles published after the given year. (Use filter.)   
 
 function findBooksPublishedAfter(books, year) {
-    books.title = year.tittlestring(bookstitle);
+    books.title = year.tittle(bookstitle);
+
     
 }
 //c. Write a function generateBookSummaries(books) that returns an array of strings, where 
 //each string is a summary of a book in the format: "[Title] by [Author] ([Publication   
 //Year])". (Use map.)   
+function generateBookSummaries(books) {
+    title = bookstitle; author = books.author; publicationyear = books.publicationyear;  
+{ }
+}
+
 //d. Write a function sortByPublicationYear(books) that sorts the books by publication year, 
 //oldest to newest. (Use sort.)  
+function sortByPublicationYear(books) {
+    oldest = books.sortByPublicationYear
+    newest = books.sortByPublicationYear 
+    year = books.year 
+    if (oldest.publicatioyear > newest.publicatioyear)
+         { return oldest.publicatioyear}
+
+}
