@@ -6,7 +6,7 @@
 //showing the count of each role.  
 function countRoles(admin, instructor, student,)
 {
-    admin=2;
+    admin=3;
     intructor=1;
     student=5;
 }
